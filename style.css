@@ -1,0 +1,26 @@
+.main{
+  background: url(/image/pexels-kindel-media-7081391.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.main h1{
+  font-size: 4rem;
+  font-weight: 700; 
+  color: rgb(17, 12, 12);
+}
+.btn1{
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(206, 61, 68);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn1:hover{
+  background-color: rgb(172, 23, 31);
+  transition: 0.5s;
+}
