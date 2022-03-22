@@ -10,6 +10,16 @@
   font-weight: 700; 
   color: rgb(17, 12, 12);
 }
+.navbar{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar-brand{
+  font-size: 2rem;
+  color: black;
+  font-family: 'Lobster', cursive;
+}
 .btn1{
   height: 45px;
   width: 35%;
@@ -23,4 +33,37 @@
 .btn1:hover{
   background-color: rgb(172, 23, 31);
   transition: 0.5s;
+}
+.btn2{
+  height: 45px;
+  width: 100px;
+  background: white;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+.fab{
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}
+.news{
+  background-color: black;
+  color: white;
+}
+.news input{
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.news::placeholder{
+  color: white;
+}
+.news p{
+  margin: 0;
 }
