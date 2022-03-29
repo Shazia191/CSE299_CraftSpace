@@ -113,37 +113,39 @@
         <div class="card">
         <ul class="nav-tabs">
             <li class="nav-items">
-                <a class="ad" href="C:\CSE299_CraftSpace\index.html">Admin</a>
+                <a class="ad" href="C:\CSE299_CraftSpace\admin.html">Admin</a>
             </li>
             <li class="nav-items">
-                <a class="sel" href="C:\CSE299_CraftSpace\index.html">Seller</a>
+                <a class="sel" href="C:\CSE299_CraftSpace\seller.html">Seller</a>
             </li>
             <li class="nav-items">
-                <a class="us" href="C:\CSE299_CraftSpace\index.html">User</a>
+                <a class="us" href="C:\CSE299_CraftSpace\user.html">User</a>
             </li>
            
 
         </ul>
         </div>
-        <form>
+        <form action="connect.php" method="post">
             <div class="form-group">
               <label for="first-name"> Name</label>
-              <input type="text" name="firstName" id="first-name" />
+              <input type="text" name="firstName" id="first-name" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="email"> Email</label>
+              <input type="email" name="email" id="email" name="email" />
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" />
+                <input type="password" name="password" id="password" name="password"/>
               </div>
-              <div class="form-group">
-                <label for="password2">Confirm Password</label>
-                <input type="password" name="pasword2" id="password2" />
-              </div>
+             
               <button type="submit" class="btn">Sign Up</button>
               <p class="bottom-text">
                 By clicking the Sign Up button, you agree to our
                 <a href="#">Terms & Conditions</a> and
                 <a href="#">Privacy Policy</a>
               </p>
+              <p>Already a user?<a href="login.php"><b>Login</b></a></p>
             </form>
             
      </div>
