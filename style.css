@@ -1,69 +1,19 @@
-.main{
-  background: url(/image/pexels-kindel-media-7081391.jpg);
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  width: 100%;
-}
-.main h1{
-  font-size: 4rem;
-  font-weight: 700; 
-  color: rgb(17, 12, 12);
-}
-.navbar{
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-.navbar-brand{
-  font-size: 2rem;
-  color: black;
-  font-family: 'Lobster', cursive;
-}
-.btn1{
-  height: 45px;
-  width: 35%;
-  border: none;
-  outline: none;
-  background-color: rgb(206, 61, 68);
-  color: white;
-  font-weight: 700;
-  border-radius: 60px;
-}
-.btn1:hover{
-  background-color: rgb(172, 23, 31);
-  transition: 0.5s;
-}
-.btn2{
-  height: 45px;
-  width: 100px;
-  background: white;
-  margin-left: -10px;
-  border: 2px solid white;
-  font-weight: 600;
-}
-.fab{
-  font-size: 2.5rem;
-  cursor: pointer;
-  padding-right: 5px;
-}
-.news{
-  background-color: black;
-  color: white;
-}
-.news input{
-  height: 45px;
-  width: 55%;
-  border: 2px solid white;
-  outline: none;
-  background: black;
-  color: white;
-  margin-top: 20px;
-  font-weight: 600;
-}
-.news::placeholder{
-  color: white;
-}
-.news p{
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.logo{
+  width: 5%;
+  height: 5%;
+  border-radius: 100%;
+}
+.card-img-top{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+/* .admin_image{
+  width: 100px;
+  object-fit: contain;
+} */
