@@ -148,8 +148,9 @@ if(isset($_POST['update_cart'])){
     $update_cart="UPDATE cart_details SET quantity=$quantities WHERE 
     ip_address='$get_ip_add'";
     $result_products_quantity=mysqli_query($con,$update_cart);
-    $total_price=$total_price * $quantities;
-}
+    $total_price= $total_price * $quantities;
+  }
+
         ?>
         <td><?php echo  $price_table  ?>/-</td>
         <td><input type="checkbox" name="removeitem[]" value="<?php echo $product_id  ?>"></td>
@@ -165,7 +166,6 @@ if(isset($_POST['update_cart'])){
 
     <?php
       }}
-
     ?>
 </tbody>
 
