@@ -15,7 +15,7 @@ if(isset($_POST['insert_cat'])){
   $result_select=mysqli_query($con,$select_query);
   $number=mysqli_num_rows($result_select);
   if($number>0){
-   echo "<script>alert('This category is already present inside the database')</script>";
+    echo "<script>alert('This category is already present inside the database')</script>";
   }
   else{
   $insert_query="INSERT INTO categories (category_title) VALUES ('$category_title')";
@@ -44,3 +44,4 @@ if(isset($_POST['insert_cat'])){
 
 
 </form>
+

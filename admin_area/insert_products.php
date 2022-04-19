@@ -1,5 +1,5 @@
-<!-- bootstrap JS link -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+ <!-- bootstrap JS link -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
      crossorigin="anonymous"></script>
 <?php
@@ -80,7 +80,7 @@
 </head>
 <body class="bg-light">
    <div class="container mt-3">
-       <h1 class="text-center">Insert Products</h1>
+       <h1 class="text-center">Products</h1>
        <!--Product Form-->
        <form action="" method="post" enctype="multipart/form-data">
              <!--Product title-->

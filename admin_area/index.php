@@ -76,7 +76,6 @@
                     <button><a href="" class="nav-link text-light bg-info my-1">All Payments</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">List Users</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">LogOut</a></button>
-                    <button><a href="index.php?video_uploader" class="nav-link text-light bg-info my-1">Video Uploader</a></button>
 
                  </div>
 
@@ -90,9 +89,6 @@
  }
  if(isset($_GET['insert_brand'])){
     include('insert_brands.php');
-}
-if(isset($_GET['video_uploader'])){
-    include('../index.html');
 }
     ?>
 </div>
